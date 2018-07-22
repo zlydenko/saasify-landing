@@ -60,3 +60,22 @@ header {
   line-height: 24px;
   font-style: medium;
 }
+
+.background {
+  z-index: -1000;
+  position: absolute;
+  right: 0%;
+  top: 0%;
+}
+
+.bg-figure {
+  width: 800px;
+}
+
+.triangle {
+  width: 150px;
+  z-index: -100;
+  position: absolute;
+  top: 10%;
+  left: -5%;
+}
