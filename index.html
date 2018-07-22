@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css">
+  <link rel="stylesheet" href="https://unpkg.com/flexboxgrid2@7.1.0/flexboxgrid2.css">
   <link rel="stylesheet" href="./main.css">
   <title>Saasify</title>
 </head>
@@ -17,24 +18,31 @@
       <img class="bg-figure triangle" src="./img/Rectangle 4.svg">
     </div>
 
-    <header>
-      <div class="navigation">
-        <div class="logo">
-          <img src="./img/logo.svg">
-          <img src="./img/company-name-logo.svg">
-        </div>
-        <nav class="menu">
-          <a href="#">Product</a>
-          <a href="#">Solutions</a>
-          <a href="#">Features</a>
-          <a href="#">Pricing</a>
-        </nav>
+    <div class="row center-xs">
+      <div class="col-xs-8">
+        <header>
+          <div class="navigation">
+            <div class="logo">
+              <img src="./img/logo.svg">
+              <img src="./img/company-name-logo.svg">
+            </div>
+            <nav class="menu">
+              <a href="#">Product</a>
+              <a href="#">Solutions</a>
+              <a href="#">Features</a>
+              <a href="#">Pricing</a>
+            </nav>
+          </div>
+          <div class="user-menu">
+            <a href="#">Login</a>
+            <button class="main-btn">Get started</button>
+          </div>
+        </header>
       </div>
-      <div class="user-menu">
-        <a href="#">Login</a>
-        <button class="main-btn">Get started</button>
+      <div class="col-xs-8">
+
       </div>
-    </header>
+    </div>
 
   </section>
 </body>
