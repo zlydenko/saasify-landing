@@ -8,6 +8,10 @@ html {
   box-sizing: inherit;
 }
 
+body {
+  font-family: "Poppins", sans-serif;
+}
+
 header {
   display: flex;
   justify-content: space-between;
